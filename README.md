@@ -17,4 +17,4 @@ A responsive personal finance and expense tracking web application built with **
 - Vite
 - JavaScript (ES6+)
 - Deployed on Vercel
--
+
