@@ -1,16 +1,20 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive personal finance and expense tracking web application built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://vercel.app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- **Real-Time Balance:** Automatically calculates total income, expenses, and net balance in ₹.
+- **Monthly Budget Tracker:** Customizable monthly spending limit with a visual progress bar.
+- **Custom Categories:** Add new categories anytime and view total spending per category.
+- **Category Filtering:** Filter transaction history by specific categories.
+- **CSV Export:** Download all transactions as a `.csv` spreadsheet file.
+- **Persistent Storage:** Automatically saves data in browser `localStorage`.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tech Stack
+- React (Hooks & State Management)
+- Vite
+- JavaScript (ES6+)
+- Deployed on Vercel
+-
